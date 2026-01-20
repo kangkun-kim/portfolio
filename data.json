@@ -36,13 +36,13 @@
     {
       "title": "엠투커뮤니티",
       "period": "2023/1 - 2026/1",
-      "description": "학회/병원 사이트 위주로 개발·운영하며 레거시 코드 Larvel 로 개편 및 결제, 행사접수, 메일및 SMS 발송, 회비관리 등을 구현"
+      "description": "학회/병원 사이트 개발·운영 및 유지보수, 레거시 PHP → Laravel 개편, NHN KCP/KG이니시스/엑심베이 등 7개 PG사 결제·정산 연동 및 행사접수/회비관리/메일·SMS 발송 기능 구현"
     }
   ],
   "projects": [
     {
-      "id": "internal_medicine",
-      "name": "internal_medicine",
+      "id": "내과학회",
+      "name": "내과학회",
       "category": "Web",
       "filter": "filter-web",
       "thumbnail": "./img/portfolio/internal_medicine/internal_medicine_header.png",
@@ -99,8 +99,8 @@
       "description": "국제 학술대회 운영을 위한 서비스로,\n초록 제출(Abstract Submission)과 사전등록(Pre-registration) 기능을 개발했습니다.\n해외 참가자를 고려한 사용자 흐름을 설계하고,\n외부 결제 API를 연동하여 등록비 결제 및 결제 상태 관리를 구현했습니다.\n학술대회 운영에 필요한 주요 기능을 중심으로\n안정적인 서비스 제공에 중점을 두고 개발했습니다."
     },
     {
-      "id": "ksog",
-      "name": "ksog",
+      "id": "대한산부인과학회",
+      "name": "대한산부인과학회",
       "category": "App",
       "filter": "filter-app",
       "thumbnail": "./img/portfolio/ksog/ksog_header.png",
@@ -120,8 +120,8 @@
       "description": "오래전 구축된 학회 시스템을 기반으로 국내 학술대회 운영부터 사전등록, 회원 관리까지 전반적인 유지보수를 담당한 프로젝트입니다.\n레거시 PHP 코드 분석을 통해 보안 취약점을 개선하고, 쿼리 튜닝을 진행하여 서비스 안정성과 성능을 향상시켰습니다.\n또한 전공의 대상 교육을 위한 LMS(이러닝) 기능을 운영·유지보수하며, 수강 관리 및 학습 이력 관리 기능을 지원했습니다."
     },
     {
-      "id": "bio",
-      "name": "bio",
+      "id": "바이오코어퍼실리티센터",
+      "name": "바이오코어퍼실리티센터",
       "category": "App",
       "filter": "filter-app",
       "thumbnail": "./img/portfolio/bio/bio_header.png",
