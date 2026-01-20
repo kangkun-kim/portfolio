@@ -43,7 +43,7 @@
     {
       "id": "내과학회",
       "name": "내과학회",
-      "category": "Web",
+      "category": "신규개발",
       "filter": "filter-web",
       "thumbnail": "./img/portfolio/internal_medicine/internal_medicine_header.png",
       "images": [
@@ -62,7 +62,7 @@
     {
       "id": "부인종양학회",
       "name": "부인종양학회",
-      "category": "Web",
+      "category": "신규개발",
       "filter": "filter-web",
       "thumbnail": "./img/portfolio/sgo/sgo_header.png",
       "images": [
@@ -81,7 +81,7 @@
     {
       "id": "eacon",
       "name": "eacon",
-      "category": "Web",
+      "category": "신규개발",
       "filter": "filter-web",
       "thumbnail": "./img/portfolio//eacon/eacon_header.png",
       "images": [
@@ -101,7 +101,7 @@
     {
       "id": "대한산부인과학회",
       "name": "대한산부인과학회",
-      "category": "App",
+      "category": "유지보수",
       "filter": "filter-app",
       "thumbnail": "./img/portfolio/ksog/ksog_header.png",
       "images": [
@@ -122,7 +122,7 @@
     {
       "id": "바이오코어퍼실리티센터",
       "name": "바이오코어퍼실리티센터",
-      "category": "App",
+      "category": "유지보수",
       "filter": "filter-app",
       "thumbnail": "./img/portfolio/bio/bio_header.png",
       "images": [
@@ -143,7 +143,7 @@
     {
       "id": "icmri",
       "name": "icmri",
-      "category": "App",
+      "category": "유지보수",
       "filter": "filter-app",
       "thumbnail": "./img/portfolio/icmri/icmri_header.png",
       "images": [
