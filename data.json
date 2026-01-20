@@ -1,0 +1,163 @@
+{
+  "profile": {
+    "name": "김강건",
+    "nameEn": "Kim Kang Kun",
+    "title": "Web Developer PHP/Laravel",
+    "github": "https://github.com/kangkun-kim",
+    "": "https://asufi.tistory.com",
+    "email": "chaos_5126@naver.com",
+    "birthday": "1993-10-29",
+    "phone": "010-8108-5126",
+    "careerStart": "2022-01-01",
+    "typedItems": ["Kim Kang Kun", "Web Developer PHP/Laravel"],
+    "aboutText": "PHP 기반 백엔드 개발자 김강건입니다.<br>약 <span class=\"career\"></span>년간 레거시 PHP 환경과 Laravel을 병행하며 웹 서비스 개발·운영을 경험해왔습니다.<br>기존 레거시 구조로 운영되던 학회 시스템을 Laravel 기반으로 개선·고도화하며<br>회원, 회비, 행사 접수, 관리자 시스템 등 핵심 기능의 구조를 재정비한 경험이 있습니다.<br>또한 외부 API 연동을 통한 결제 기능을 구현하며 결제 상태 관리와 운영 안정성을 고려한 개발을 진행해왔습니다.<br>단순 기능 구현을 넘어, 실제 서비스 운영과 유지보수를 고려한 백엔드 개발을 중요하게 생각합니다."
+  },
+  "skills": [
+    { "name": "PHP", "percentage": 80 },
+    { "name": "Laravel", "percentage": 70 },
+    { "name": "HTML", "percentage": 80 },
+    { "name": "CSS", "percentage": 60 },
+    { "name": "JavaScript", "percentage": 70 },
+    { "name": "JQuery", "percentage": 80 },
+    { "name": "MySQL / MariaDB", "percentage": 65 },
+    { "name": "Git", "percentage": 55 }
+  ],
+  "resume": [
+    {
+      "title": "현대석재산업",
+      "period": "2017/3 - 2021/6",
+      "description": "현장 관리 및 자재·일정 관리 업무를 수행하며,\n내부 업무 지원과 현장 운영 전반 담당."
+    },
+    {
+      "title": "데일리레보라토리",
+      "period": "2021/10 - 2022/11",
+      "description": "외주 프로젝트로 웹앱 기반 쇼핑몰 홈페이지 구축에 참여하며,\n실무 환경에서 웹 서비스 개발 경험 축적"
+    },
+    {
+      "title": "엠투커뮤니티",
+      "period": "2023/1 - 2026/1",
+      "description": "학회/병원 사이트 위주로 개발·운영하며 레거시 코드 Larvel 로 개편 및 결제, 행사접수, 메일및 SMS 발송, 회비관리 등을 구현"
+    }
+  ],
+  "projects": [
+    {
+      "id": "internal_medicine",
+      "name": "internal_medicine",
+      "category": "Web",
+      "filter": "filter-web",
+      "thumbnail": "./img/portfolio/internal_medicine/internal_medicine_header.png",
+      "images": [
+        "./img/portfolio/internal_medicine/internal_medicine.png",
+        "./img/portfolio/internal_medicine/internal_medicine2.png",
+        "./img/portfolio/internal_medicine/internal_medicine3.png"
+      ],
+      "framework": "Laravel",
+      "github": null,
+      "link": {
+        "url": "https://sign.kaim.or.kr",
+        "text": "내과학회"
+      },
+      "description": "레거시 PHP 기반으로 운영되던 학회 시스템을 Laravel 프레임워크로 전면 개편했습니다. 기존 사용자들이 익숙하게 사용하던 업무 흐름과 화면 구조는 유지하면서, 내부 구현은 Laravel 기반으로 전면 재설계하여 코드 구조와 유지보수성을 개선했습니다. 전자결재 워크플로우를 중심으로 확장성과 안정성을 고려한 아키텍처를 적용했습니다."
+    },
+    {
+      "id": "부인종양학회",
+      "name": "부인종양학회",
+      "category": "Web",
+      "filter": "filter-web",
+      "thumbnail": "./img/portfolio/sgo/sgo_header.png",
+      "images": [
+        "./img/portfolio/sgo/sgo1.png",
+        "./img/portfolio/sgo/sgo2.png",
+        "./img/portfolio/sgo/sgo3.png"
+      ],
+      "framework": "Laravel",
+      "github": null,
+      "link": {
+        "url": "https://sgo.or.kr",
+        "text": "대한부인종양학회"
+      },
+      "description": "타사에서 개발·운영하던 기존 서비스를 인수하여\nLaravel 기반으로 시스템 전반을 분석한 뒤 재개발을 진행했습니다.\n기존 DB 구조를 그대로 사용하지 않고,\n서비스 구조에 맞게 DB 설계부터 다시 진행했으며\n기능별 데이터 흐름을 재정비하여 백엔드 로직을 전면 개선했습니다.\n운영 중 발생하는 이슈를 반영하며 서비스 안정화와 기능 확장을 수행했습니다."
+    },
+    {
+      "id": "eacon",
+      "name": "eacon",
+      "category": "Web",
+      "filter": "filter-web",
+      "thumbnail": "./img/portfolio//eacon/eacon_header.png",
+      "images": [
+        "./img/portfolio/eacon/eacon1.png",
+        "./img/portfolio/eacon/eacon2.png",
+        "./img/portfolio/eacon/eacon3.png",
+        "./img/portfolio/eacon/eacon4.png"
+      ],
+      "framework": "Laravel",
+      "github": null,
+      "link": {
+        "url": "https://eacon2025.kr/",
+        "text": "eacon2025"
+      },
+      "description": "국제 학술대회 운영을 위한 서비스로,\n초록 제출(Abstract Submission)과 사전등록(Pre-registration) 기능을 개발했습니다.\n해외 참가자를 고려한 사용자 흐름을 설계하고,\n외부 결제 API를 연동하여 등록비 결제 및 결제 상태 관리를 구현했습니다.\n학술대회 운영에 필요한 주요 기능을 중심으로\n안정적인 서비스 제공에 중점을 두고 개발했습니다."
+    },
+    {
+      "id": "ksog",
+      "name": "ksog",
+      "category": "App",
+      "filter": "filter-app",
+      "thumbnail": "./img/portfolio/ksog/ksog_header.png",
+      "images": [
+        "./img/portfolio/ksog/ksog1.png",
+        "./img/portfolio/ksog/ksog2.png",
+        "./img/portfolio/ksog/ksog3.png",
+        "./img/portfolio/ksog/ksog4.png",
+        "./img/portfolio/ksog/ksog5.png"
+      ],
+      "framework": "Legacy",
+      "github": null,
+      "link": {
+        "url": "https://www.ksog.org/",
+        "text": "대한산부인과학회"
+      },
+      "description": "오래전 구축된 학회 시스템을 기반으로 국내 학술대회 운영부터 사전등록, 회원 관리까지 전반적인 유지보수를 담당한 프로젝트입니다.\n레거시 PHP 코드 분석을 통해 보안 취약점을 개선하고, 쿼리 튜닝을 진행하여 서비스 안정성과 성능을 향상시켰습니다.\n또한 전공의 대상 교육을 위한 LMS(이러닝) 기능을 운영·유지보수하며, 수강 관리 및 학습 이력 관리 기능을 지원했습니다."
+    },
+    {
+      "id": "bio",
+      "name": "bio",
+      "category": "App",
+      "filter": "filter-app",
+      "thumbnail": "./img/portfolio/bio/bio_header.png",
+      "images": [
+        "./img/portfolio/bio/bio1.png",
+        "./img/portfolio/bio/bio2.png",
+        "./img/portfolio/bio/bio3.png",
+        "./img/portfolio/bio/bio4.png",
+        "./img/portfolio/bio/bio5.png"
+      ],
+      "framework": "Legacy PHP (Modernized)",
+      "github": null,
+      "link": {
+        "url": "https://www.cmcbiocore.or.kr/",
+        "text": "바이오코어퍼실리티센터"
+      },
+      "description": "학회 운영을 지원하기 위해 개발된 관리 시스템으로, 회원 관리와 기본 운영 기능을 중심으로 개발 및 유지보수를 담당한 프로젝트입니다.\n관리자 페이지에서 교육 및 시설 정보를 등록·관리하고, 회원이 해당 교육과 시설을 예약할 수 있는 기능을 구현했습니다.\n예약 현황 및 상태 관리 로직을 포함해 운영 과정에서 발생하는 요구사항을 반영하며 기능 개선과 안정적인 서비스 운영에 중점을 두고 개발했습니다."
+    },
+    {
+      "id": "icmri",
+      "name": "icmri",
+      "category": "App",
+      "filter": "filter-app",
+      "thumbnail": "./img/portfolio/icmri/icmri_header.png",
+      "images": [
+        "./img/portfolio/icmri/icmri1.png",
+        "./img/portfolio/icmri/icmri2.png",
+        "./img/portfolio/icmri/icmri3.png"
+      ],
+      "framework": "Legacy PHP (Modernized)",
+      "github": null,
+      "link": {
+        "url": "https://icmri.ksmrm.org/2026m/",
+        "text": "icmri"
+      },
+      "description": "10년 이상 운영되어 온 국제학술대회 웹사이트를 맡아, 3년간 국제학술대회 운영 시스템의 유지보수와 개선을 담당한 프로젝트입니다.\n매년 변경되는 학회 정책과 행사 흐름을 반영해 기능을 보완했으며, 국내 연계 학회 시스템과의 API 통신을 통해 회원 정보 연동 및 결제 처리를 구현했습니다.\n또한 주최 측으로 행사 현장에 직접 참여하여 현장등록 시스템을 구축하고, 온라인 사전등록 데이터와 연계된 운영 환경을 구현했습니다."
+    }
+  ]
+}

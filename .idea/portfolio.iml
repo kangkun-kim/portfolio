@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bootstrap/css" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/bootstrap/js" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/boxicons/css" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/boxicons/fonts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/icofont/fonts" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/owl.carousel/assets" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

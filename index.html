@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Portfolio</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <meta property="og:title" content="Portfolio" />
+    <meta property="og:url" content="http://www.asufi.tk/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./img/hero-bg.png" />
+    <meta property="og:title" content="Portfolio" />
+    <meta property="og:description" content="Developer Portfolio" />
+
+    <!-- Favicons -->
+    <link href="./img/favicon.png" rel="icon">
+    <link href="./img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="./vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="./vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="./vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="./vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="./css/style.css" rel="stylesheet">
+
+    <style>
+        .portfolio-wrap > img {
+            width: 100%;
+            max-height: 135.93px;
+        }
+
+        .thumb-box {
+            width: 100%;
+            height: 230px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f4f6f8;
+        }
+
+        .thumb-box img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+    </style>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex flex-column justify-content-center">
+
+        <nav id="navbar" class="navbar nav-menu">
+            <ul>
+                <li>
+                    <a href="#hero" class="nav-link scrollto active">
+                        <i class="bx bx-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link scrollto">
+                        <i class="bx bx-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#resume" class="nav-link scrollto">
+                        <i class="bx bx-file-blank"></i>
+                        <span>Resume</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link scrollto">
+                        <i class="bx bx-book-content"></i>
+                        <span>Project</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- .nav-menu -->
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center">
+        <div class="container" data-aos="zoom-in" data-aos-delay="100">
+            <h1>Portfolio</h1>
+            <p>I'm <span class="typed" id="typed-text"></span></p>
+
+            <div class="social-links" id="hero-social-links">
+            </div>
+        </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>About</h2>
+                    <h6 id="about-greeting"></h6>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="./img/profile-img.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 pt-4 pt-lg-0 content">
+                        <br>
+                        <h3 id="about-title"></h3>
+
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul id="about-info-left"></ul>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <ul id="about-info-right"></ul>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <p id="about-text"></p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= Skills Section ======= -->
+        <section id="skills" class="skills section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Skills</h2>
+                    <p></p>
+                </div>
+
+                <div class="row skills-content" id="skills-container">
+                </div>
+            </div>
+        </section>
+        <!-- End Skills Section -->
+
+        <!-- ======= Resume Section ======= -->
+        <section id="resume" class="resume">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>Resume</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h3 class="resume-title">경력</h3>
+                        <div id="resume-container"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Resume Section -->
+
+
+        <!-- ======= Project Section ======= -->
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Project</h2>
+                
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">주요 프로젝트</li>
+                            <li data-filter=".filter-web">신규개발</li>
+                            <li data-filter=".filter-app">유지보수</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row portfolio-container" id="portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                </div>
+
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
+    </main>
+
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <div class="social-links" id="footer-social-links">
+            </div>
+
+            <div class="copyright">
+                &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+            </div>
+
+            <div class="credits">
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="./vendor/jquery/jquery.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="./vendor/php-email-form/validate.js"></script>
+    <script src="./vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="./vendor/counterup/counterup.min.js"></script>
+    <script src="./vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="./vendor/venobox/venobox.min.js"></script>
+    <script src="./vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="./vendor/typed.js/typed.min.js"></script>
+    <script src="./vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="./js/main.js"></script>
+
+    <script>
+        let siteData = null;
+
+        const calculateAge = (birthday) => {
+            const currentDate = new Date();
+            const currentYear = currentDate.getFullYear();
+            const currentMonth = currentDate.getMonth();
+            const currentDay = currentDate.getDate();
+
+            const birthParts = birthday.split('-');
+            const birthDate = new Date(parseInt(birthParts[0]), parseInt(birthParts[1]) - 1, parseInt(birthParts[2]));
+
+            let age = currentYear - birthDate.getFullYear();
+
+            if (currentMonth < birthDate.getMonth() ||
+                (currentMonth === birthDate.getMonth() && currentDay < birthDate.getDate())) {
+                age--;
+            }
+
+            return age;
+        }
+
+        const calculateCareer = (careerStart) => {
+            const startParts = careerStart.split('-');
+            const startDate = new Date(parseInt(startParts[0]), parseInt(startParts[1]) - 1, 1);
+            const currentDate = new Date();
+
+            let years = currentDate.getFullYear() - startDate.getFullYear();
+            let months = currentDate.getMonth() - startDate.getMonth();
+
+            if (months < 0) {
+                years--;
+                months += 12;
+            }
+
+            months += 1;
+
+            return `${years}년 ${months}개월`;
+        }
+
+        const renderSocialLinks = (containerId, profile) => {
+            const container = document.getElementById(containerId);
+            container.innerHTML = `
+                <a href="${profile.github}" class="github"><i class="bx bxl-github"></i></a>
+            `;
+        }
+
+        const renderHero = (profile) => {
+            renderSocialLinks('hero-social-links', profile);
+
+            // typed.js 초기화
+            if ($('.typed').length) {
+                new Typed('#typed-text', {
+                    strings: profile.typedItems,
+                    loop: true,
+                    typeSpeed: 100,
+                    backSpeed: 50,
+                    backDelay: 2000
+                });
+            }
+        }
+
+        const renderAbout = (profile) => {
+            const career = calculateCareer(profile.careerStart);
+            const age = calculateAge(profile.birthday);
+
+            document.getElementById('about-greeting').textContent = `안녕하세요 웹개발자 ${profile.name} 입니다.`;
+            document.getElementById('about-title').textContent = profile.title;
+
+            document.getElementById('about-info-left').innerHTML = `
+                <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>${profile.name}</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <span><a href="${profile.github}">${profile.github}</a></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>${profile.email}</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>${profile.phone}</span></li>
+            `;
+
+            document.getElementById('about-info-right').innerHTML = `
+                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>${profile.birthday}</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>${age}</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Career:</strong> <span>${career}</span></li>
+                
+            `;
+
+            let aboutText = profile.aboutText.replace(/<span class="career"><\/span>/g, career);
+            document.getElementById('about-text').innerHTML = '<br>' + aboutText;
+
+            renderSocialLinks('footer-social-links', profile);
+        }
+
+        const renderSkills = (skills) => {
+            const container = document.getElementById('skills-container');
+            let html = '';
+
+            for (let i = 0; i < skills.length; i += 2) {
+                html += '<div class="col-lg-6">';
+
+                // First skill in pair
+                html += `
+                    <div class="progress">
+                        <span class="skill">${skills[i].name} <i class="val">${skills[i].percentage}%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="${skills[i].percentage}" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                `;
+
+                // Second skill in pair (if exists)
+                if (skills[i + 1]) {
+                    html += `
+                        <div class="progress">
+                            <span class="skill">${skills[i + 1].name} <i class="val">${skills[i + 1].percentage}%</i></span>
+                            <div class="progress-bar-wrap">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="${skills[i + 1].percentage}" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                html += '</div>';
+            }
+
+            container.innerHTML = html;
+        }
+
+        const renderResume = (resume) => {
+            const container = document.getElementById('resume-container');
+            let html = '';
+
+            resume.forEach(item => {
+                html += `
+                    <div class="resume-item">
+                        <h4>${item.title}</h4>
+                        <h5>${item.period}</h5>
+                        <p><em>${item.description}</em></p>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        const renderProjects = (projects) => {
+            const container = document.getElementById('portfolio-container');
+            let html = '';
+
+            projects.forEach(project => {
+                html += `
+                    <div class="col-lg-4 col-md-6 portfolio-item ${project.filter}">
+                        <div class="portfolio-wrap">
+    <div class="thumb-box">
+        <img src="${project.thumbnail}" alt="">
+    </div>
+    <div class="portfolio-info">
+                                <h4>${project.name}</h4>
+                                <p>${project.category}</p>
+                                <div class="portfolio-links">
+                                    <a href="./project.html?name=${project.id}"
+                                        data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
+                                        title="Portfolio Details"><i class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        const initIsotope = () => {
+            let portfolioContainer = document.querySelector('.portfolio-container');
+            if (portfolioContainer) {
+                let portfolioIsotope = new Isotope(portfolioContainer, {
+                    itemSelector: '.portfolio-item'
+                });
+
+                let portfolioFilters = document.querySelectorAll('#portfolio-flters li');
+
+                portfolioFilters.forEach(filter => {
+                    filter.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        portfolioFilters.forEach(el => el.classList.remove('filter-active'));
+                        this.classList.add('filter-active');
+
+                        portfolioIsotope.arrange({
+                            filter: this.getAttribute('data-filter')
+                        });
+                    });
+                });
+            }
+        }
+
+        const initVenobox = () => {
+            $(document).ready(function() {
+                $('.venobox').venobox();
+            });
+        }
+
+        $(function() {
+            fetch('./data.json')
+                .then(response => response.json())
+                .then(data => {
+                    siteData = data;
+
+                    renderHero(data.profile);
+                    renderAbout(data.profile);
+                    renderSkills(data.skills);
+                    renderResume(data.resume);
+                    renderProjects(data.projects);
+
+                    // 포트폴리오 필터 재초기화
+                    setTimeout(() => {
+                        initIsotope();
+                        initVenobox();
+                    }, 100);
+                })
+                .catch(error => console.error('Error loading data:', error));
+        });
+    </script>
+
+</body>
+
+</html>
